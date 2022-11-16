@@ -1,0 +1,41 @@
+body {
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstDepth {
+    background-color: wheat;
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .secondDepth {
+    background-color: teal;
+    border-color: whitesmoke;
+  }
+
+  .topBottom {
+    width: 30px;
+    height: 30px;
+  }
+
+  .middle {
+    width: 130px;
+    height: 30px;
+  }
+
+  .solidBorder {
+    border-style: solid;
+  }
+
+  .dashedBorder {
+    border-style: dashed;
+  }

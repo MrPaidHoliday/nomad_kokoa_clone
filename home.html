@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Demian Times</title>
+
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+      @media screen and (max-width: 600px) {
+        div {
+          background-color: tomato;
+        }
+      }
+      @media screen and (min-width: 601px) and (max-width: 1200px) {
+        div {
+          background-color: wheat;
+        }
+        span {
+          font-size: 36px;
+        }
+      }
+      @media screen and (orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+      @media print {
+        body {
+          background-color: tomato;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <span>please flip your phone</span>
+  </body>
+</html>
